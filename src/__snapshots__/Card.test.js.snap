@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`rendering Card renders correctly 1`] = `
 <div
   className="Card"
 >
@@ -10,10 +10,10 @@ exports[`renders correctly 1`] = `
     delete
   </button>
   <h3>
-    title
+    First card
   </h3>
   <p>
-    content
+    lorem ipsum
   </p>
 </div>
 `;

@@ -4,6 +4,8 @@ import renderer from 'react-test-renderer';
 import Card from './Card'
 import STORE from './STORE'
 
+describe('rendering Card', () => {
+
 it('renders without crashing', () => {
 const div = document.createElement('div');
 ReactDOM.render(<Card title='Hello' content= 'World' />, div);
@@ -19,4 +21,6 @@ it('renders correctly', () => {
       />)
     .toJSON();
   expect(tree).toMatchSnapshot();
+});
+
 });
